@@ -42,13 +42,21 @@ Diagram opisuje każde pole za pomocą znaku
 Znaki te są pogrupowane w wiersze i uporządkowane w kolejności rosnącego numeru wiersza a w wierszu, według rosnącej kolumny. W lewym górnym rogu diagramu jest więc pole a1. Na końcu każdego wiersza i pod każdą kolumną jest ich oznaczenie. Np. diagram stanu początkowego planszy ma postać
 
 --------1
+
 --------2
+
 --------3
+
 ---BC---4
+
 ---CB---5
+
 --------6
+
 --------7
+
 --------8
+
 abcdefgh
 Odpowiedź programu na polecenie użytkownika mieści się w jednym wierszu. Kończy się on, poprzedzoną spacją, oceną planszy. Ocena jest równa różnicy między liczbą czarnych i białych pionów.
 
@@ -57,7 +65,12 @@ Jeśli polecenie jest błędne, na początku odpowiedzi programu, przed oceną p
 Odpowiedź na polecenie jest więc słowem języka opisanego poniższą gramatyką bezkontekstową z symbolem początkowym S. Symbolami końcowymi tej gramatyki są znaki ujęte w apostrofy oraz n, które reprezentuje liczbę całkowitą zapisaną dziesiętnie.
 
 S → R ' ' n
+
 R → '?' | P ' ' P
+
 P → '=' | K W
+
 K → 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h'
+
 W → '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8'
+
