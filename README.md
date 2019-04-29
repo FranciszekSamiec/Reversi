@@ -42,19 +42,12 @@ Diagram opisuje każde pole za pomocą znaku
 Znaki te są pogrupowane w wiersze i uporządkowane w kolejności rosnącego numeru wiersza a w wierszu, według rosnącej kolumny. W lewym górnym rogu diagramu jest więc pole a1. Na końcu każdego wiersza i pod każdą kolumną jest ich oznaczenie. Np. diagram stanu początkowego planszy ma postać
 
 --------1
-
 --------2
-
 --------3
-
 ---BC---4
-
 ---CB---5
-
 --------6
-
 --------7
-
 --------8
 
 abcdefgh
