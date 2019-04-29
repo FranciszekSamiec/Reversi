@@ -33,24 +33,14 @@ Na wyjściu programu jest ciąg diagramów planszy, przedzielonych komunikatami 
 
 Diagram opisuje każde pole za pomocą znaku
 
-* - gdy pole jest puste,
+* "-" gdy pole jest puste,
 
 * C gdy na polu jest pion czarny,
 
 * B gdy na polu jest pion biały.
 
-Znaki te są pogrupowane w wiersze i uporządkowane w kolejności rosnącego numeru wiersza a w wierszu, według rosnącej kolumny. W lewym górnym rogu diagramu jest więc pole a1. Na końcu każdego wiersza i pod każdą kolumną jest ich oznaczenie. Np. diagram stanu początkowego planszy ma postać
+Znaki te są pogrupowane w wiersze i uporządkowane w kolejności rosnącego numeru wiersza a w wierszu, według rosnącej kolumny. W lewym górnym rogu diagramu jest więc pole a1. Na końcu każdego wiersza i pod każdą kolumną jest ich oznaczenie.
 
---------1
---------2
---------3
----BC---4
----CB---5
---------6
---------7
---------8
-
-abcdefgh
 Odpowiedź programu na polecenie użytkownika mieści się w jednym wierszu. Kończy się on, poprzedzoną spacją, oceną planszy. Ocena jest równa różnicy między liczbą czarnych i białych pionów.
 
 Jeśli polecenie jest błędne, na początku odpowiedzi programu, przed oceną planszy, jest znak zapytania. W przeciwnym przypadku zapisany jest tam ruch gracza Czarnego i, po spacji, ruch gracza Białego. Rezygnację z ruchu będziemy zapisywać jako = a wykonanie ruchu, wskazując pole, na które położono pion.
